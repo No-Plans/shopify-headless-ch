@@ -281,8 +281,9 @@
                 var redirect = customRedirects[cri].split('>');
                 var fromPath = redirect[0];
                 var toPath = redirect[1];
+                var redirectPath = new URL(redirectUrl).pathname;
 
-                if (fromPath && toPath && redirectUrl.startsWith('https://' + storefrontHostname + fromPath)) {
+                if (fromPath && toPath && redirectPath === fromPath) {
                   redirectUrl = redirectUrl.replace(storefrontHostname + fromPath, storefrontHostname + toPath);
                   break;
                 }

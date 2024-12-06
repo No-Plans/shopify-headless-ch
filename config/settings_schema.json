@@ -11,6 +11,15 @@
     "name": "Redirect",
     "settings": [
       {
+        "type": "select",
+        "id": "redirect_enabled",
+        "label": "Redirect?",
+        "options": [
+          { "value": "true", "label": "Yes" },
+          { "value": "false", "label": "No" }
+        ]
+      },
+      {
         "type": "text",
         "id": "storefront_hostname",
         "label": "Hostname",

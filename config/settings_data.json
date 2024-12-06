@@ -84,6 +84,7 @@
         "blocks": {
           "footer-0": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
               "heading": "QUICK LINKS",
               "menu": "footer"
@@ -92,8 +93,8 @@
           "ca543a09-07c4-4862-80f6-9472d5d7dd2f": {
             "type": "text",
             "settings": {
-              "heading": "LOCATION",
-              "subtext": "<p>631 9TH AVE<br/>SAN DIEGO, CA 92101 <br/><a href=\"https://consortiumholdings.com/\" target=\"_blank\" title=\"https://consortiumholdings.com/\">CONSORTIUMHOLDINGS.COM</a></p>"
+              "heading": "",
+              "subtext": "<p>631 9TH AVE<br/>SAN DIEGO, CA 92101 <br/><a href=\"https://ch-projects.com\" target=\"_blank\" title=\"https://ch-projects.com\">CH-PROJECTS.COM</a></p>"
             }
           }
         },

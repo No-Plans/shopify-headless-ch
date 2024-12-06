@@ -1,7 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "storefront_hostname": "noplans.ch-projects.com",
-    "exclude_paths": "\/pages\/help",
+    "custom_redirects": "/ > /store",
+    "exclude_paths": "/pages/help",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#232323",
     "colors_accent_2": "#5e5e5e",
@@ -20,11 +30,11 @@
     "popup_corner_radius": 0,
     "drawer_shadow_opacity": 10,
     "badge_corner_radius": 40,
-    "social_instagram_link": "https:\/\/www.instagram.com\/lil_ch_world\/",
-    "social_linkedin_link": "https:\/\/www.linkedin.com\/company\/chprojects",
+    "social_instagram_link": "https://www.instagram.com/lil_ch_world/",
+    "social_linkedin_link": "https://www.linkedin.com/company/chprojects",
     "social_vimeo_link": "",
-    "favicon": "shopify:\/\/shop_images\/CHFVC.png",
-    "checkout_logo_image": "shopify:\/\/shop_images\/CH_LOGO_a31b583d-2d34-40da-9208-2ec39005bf96.png",
+    "favicon": "shopify://shop_images/CHFVC.png",
+    "checkout_logo_image": "shopify://shop_images/CH_LOGO_a31b583d-2d34-40da-9208-2ec39005bf96.png",
     "checkout_logo_position": "center",
     "checkout_sidebar_background_color": "#f5c9c9",
     "sections": {
@@ -35,7 +45,7 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "text": "NEED YOUR ORDER BY CHRISTMAS? ORDER BY 12\/17!",
+              "text": "NEED YOUR ORDER BY CHRISTMAS? ORDER BY 12/17!",
               "color_scheme": "accent-1",
               "link": ""
             }
@@ -44,7 +54,7 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "text": "THE STORE IS TAKING A SUMMER BREAK! ALL ORDERS PLACED AFTER 08\/12 WILL BE SHIPPED AFTER 09\/01.",
+              "text": "THE STORE IS TAKING A SUMMER BREAK! ALL ORDERS PLACED AFTER 08/12 WILL BE SHIPPED AFTER 09/01.",
               "color_scheme": "accent-1",
               "link": ""
             }
@@ -60,7 +70,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/CH_LOGO_a31b583d-2d34-40da-9208-2ec39005bf96.png",
+          "logo": "shopify://shop_images/CH_LOGO_a31b583d-2d34-40da-9208-2ec39005bf96.png",
           "logo_width": 90,
           "logo_position": "top-center",
           "menu": "main-menu",
@@ -83,7 +93,7 @@
             "type": "text",
             "settings": {
               "heading": "LOCATION",
-              "subtext": "<p>631 9TH AVE<br\/>SAN DIEGO, CA 92101 <br\/><a href=\"https:\/\/consortiumholdings.com\/\" target=\"_blank\" title=\"https:\/\/consortiumholdings.com\/\">CONSORTIUMHOLDINGS.COM<\/a><\/p>"
+              "subtext": "<p>631 9TH AVE<br/>SAN DIEGO, CA 92101 <br/><a href=\"https://consortiumholdings.com/\" target=\"_blank\" title=\"https://consortiumholdings.com/\">CONSORTIUMHOLDINGS.COM</a></p>"
             }
           }
         },
@@ -116,17 +126,17 @@
     "content_for_index": [],
     "blocks": {
       "807785498547235276": {
-        "type": "shopify:\/\/apps\/contact-form-ultimate\/blocks\/app-embed-block\/7f36c127-5e2b-4909-bcc7-2631483e37a4",
+        "type": "shopify://apps/contact-form-ultimate/blocks/app-embed-block/7f36c127-5e2b-4909-bcc7-2631483e37a4",
         "disabled": false,
         "settings": {}
       },
       "14563957003475512843": {
-        "type": "shopify:\/\/apps\/push-notification-email-sms\/blocks\/app-embed-block\/7ec0ca92-e82f-4a94-bd3c-0e96d76b7694",
+        "type": "shopify://apps/push-notification-email-sms/blocks/app-embed-block/7ec0ca92-e82f-4a94-bd3c-0e96d76b7694",
         "disabled": true,
         "settings": {}
       },
       "12046557757412368804": {
-        "type": "shopify:\/\/apps\/concierge-customer-accounts\/blocks\/customer_account_page\/3c495b68-652c-468d-a0ef-5bad6935d104",
+        "type": "shopify://apps/concierge-customer-accounts/blocks/customer_account_page/3c495b68-652c-468d-a0ef-5bad6935d104",
         "disabled": false,
         "settings": {
           "style": "light",
@@ -142,7 +152,7 @@
         }
       },
       "11074193060611426105": {
-        "type": "shopify:\/\/apps\/concierge-customer-accounts\/blocks\/product_wishlist\/3c495b68-652c-468d-a0ef-5bad6935d104",
+        "type": "shopify://apps/concierge-customer-accounts/blocks/product_wishlist/3c495b68-652c-468d-a0ef-5bad6935d104",
         "disabled": true,
         "settings": {
           "placement": "below_add_to_cart",
@@ -168,12 +178,12 @@
         }
       },
       "633905670919129700": {
-        "type": "shopify:\/\/apps\/mappy-dealer-store-locator\/blocks\/bss-sl-script\/edfca2bd-82ad-413c-b32c-580d239b17ab",
+        "type": "shopify://apps/mappy-dealer-store-locator/blocks/bss-sl-script/edfca2bd-82ad-413c-b32c-580d239b17ab",
         "disabled": false,
         "settings": {}
       },
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
           "button_color": "#000000",
@@ -185,7 +195,7 @@
         }
       },
       "7555218208816688692": {
-        "type": "shopify:\/\/apps\/rivo-popups-email-pop-ups\/blocks\/app-embed\/48a5a3ef-b6ff-431f-842f-6f17862c4a63",
+        "type": "shopify://apps/rivo-popups-email-pop-ups/blocks/app-embed/48a5a3ef-b6ff-431f-842f-6f17862c4a63",
         "disabled": false,
         "settings": {}
       }

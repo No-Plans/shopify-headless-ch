@@ -73,7 +73,7 @@
           "logo": "shopify://shop_images/CH_LOGO_a31b583d-2d34-40da-9208-2ec39005bf96.png",
           "logo_width": 90,
           "logo_position": "top-center",
-          "menu": "main-menu",
+          "menu": "",
           "show_line_separator": true,
           "enable_sticky_header": true,
           "margin_bottom": 0

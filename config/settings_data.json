@@ -9,7 +9,7 @@
  */
 {
   "current": {
-    "storefront_hostname": "noplans.ch-projects.com",
+    "storefront_hostname": "ch-projects.com",
     "custom_redirects": "/ > /store\n/pages/who-are-we > /who-are-we\n/pages/tired-of-missing-out-on-the-awesomeness > /contact/workWithUs\n/pages/store-locator > /\n/search > /store",
     "exclude_paths": "/pages/help",
     "colors_solid_button_labels": "#ffffff",

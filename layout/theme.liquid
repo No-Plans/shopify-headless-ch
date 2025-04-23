@@ -312,7 +312,7 @@
             }
 
             {%- if product -%}
-              if(redirectUrl.includes("/products_preview")) {
+              if(redirectUrl.pathname.includes("products_preview")) {
                 redirectUrl = new URL(`https://${redirectUrl.hostname}/products/{{ product.handle }}?preview=true`);
               }
             {%- endif -%}

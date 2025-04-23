@@ -310,6 +310,13 @@
               redirectUrl.searchParams.append("discount", discountCode);
               deleteCookie("discount_code");
             }
+
+            {%- if product -%}
+              if(redirectUrl.includes("/products_preview")) {
+                redirectUrl = new URL(`https://${redirectUrl.hostname}/products/{{ product.handle }}?preview=true`);
+              }
+            {%- endif -%}
+
             window.storefrontRedirectUrl = redirectUrl;
             window.location.replace(redirectUrl);
           }

@@ -11,7 +11,7 @@
   "current": {
     "storefront_hostname": "ch-projects.com",
     "custom_redirects": "/ > /store\n/pages/who-are-we > /who-are-we\n/pages/tired-of-missing-out-on-the-awesomeness > /contact/workWithUs\n/pages/store-locator > /\n/search > /store",
-    "exclude_paths": "/pages/help",
+    "exclude_paths": "/pages/help\n/products_preview",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#232323",
     "colors_accent_2": "#5e5e5e",
@@ -156,6 +156,10 @@
         "type": "shopify://apps/concierge-customer-accounts/blocks/product_wishlist/3c495b68-652c-468d-a0ef-5bad6935d104",
         "disabled": true,
         "settings": {
+          "add_button_color": "#5873F9",
+          "add_button_text_color": "#ffffff",
+          "remove_button_color": "#333333",
+          "remove_button_text_color": "#ffffff",
           "placement": "below_add_to_cart",
           "product_css_selector": "",
           "button_style": "icon_and_text",
@@ -171,10 +175,6 @@
           "floating_link_border_radius": 4,
           "navigation_link": false,
           "navigation_link_css_selector": "",
-          "add_button_color": "#5873F9",
-          "add_button_text_color": "#ffffff",
-          "remove_button_color": "#333333",
-          "remove_button_text_color": "#ffffff",
           "custom_css": ""
         }
       },

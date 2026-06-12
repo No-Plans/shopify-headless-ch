@@ -52,9 +52,8 @@
           },
           "c2af628c-1408-40ac-9be8-774205706a5e": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "THE STORE IS TAKING A SUMMER BREAK! ALL ORDERS PLACED AFTER 08/12 WILL BE SHIPPED AFTER 09/01.",
+              "text": "THE STORE IS TAKING A SUMMER BREAK! ALL ORDERS PLACED AFTER 06/24 WILL BE SHIPPED AFTER 07/14.",
               "color_scheme": "accent-1",
               "link": ""
             }

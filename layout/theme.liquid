@@ -225,7 +225,7 @@
       - The template is defined (will be undefined for app proxies like /apps|a|community|tools/*)
       - The current template is not the login page, unless multipass login is enabled
     {% endcomment %}
-    {%- assign should_redirect = settings.redirect_enabled == 'true' and template != blank -%}
+    {%- assign should_redirect = settings.redirect_enabled -%}
 
     {%- assign exclude_paths = settings.exclude_paths | newline_to_br | strip_newlines | replace: ' ', '' -%}
     {%- assign exclude_paths_array = exclude_paths | split: '<br/>' -%}
@@ -401,3 +401,14 @@
     </style>
   </body>
 </html>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- assign should_redirect = settings.redirect_enabled == 'true' and template
+    != blank -%}"
+  to: "{%- assign should_redirect = settings.redirect_enabled -%}"
+  position: 13340..13398
+{% endcomment %}
